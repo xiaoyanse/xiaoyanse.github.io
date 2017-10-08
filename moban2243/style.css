@@ -720,7 +720,7 @@ Margin top
 }
 #main-menu.stick {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(25, 134, 186);
+    border-bottom: 1px solid rgb(0, 120, 180);
     padding: 20px 0;
     position: fixed;
     top: 0;
@@ -730,7 +730,7 @@ Margin top
     padding-left: 27px;
 }
 .main-menu li a {
-    color: #0b7eb6;
+color: #0078b4;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
