@@ -11,7 +11,7 @@
     
     CSS INDEX
     ===================
-	
+    
     1. Template default css
     2. Main menu
     3. Service area
@@ -699,7 +699,7 @@ Margin top
     padding: 8px 0 14px;
 }
 /*----------------------
-	2. Main menu
+    2. Main menu
 ------------------------*/
 
 #home-area .table {
@@ -719,8 +719,8 @@ Margin top
     height: inherit;
 }
 #main-menu.stick {
-    background-color: rgba(252, 248, 227, 0);
-    border-bottom: 1px solid rgb(151, 151, 152);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(25, 134, 186);
     padding: 20px 0;
     position: fixed;
     top: 0;
@@ -730,8 +730,8 @@ Margin top
     padding-left: 27px;
 }
 .main-menu li a {
-    color: #ffffff;
-    font-size: 12px;
+    color: #0b7eb6;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
@@ -748,7 +748,8 @@ Margin top
     padding-right: 0;
 }
 #main-menu {
-    border-bottom: 1px solid #747474;
+    background:rgba(255, 255, 255, 0.55);
+    border-bottom: 1px solid rgba(109, 94, 94, 0);
     left: 0;
     padding: 35px 0;
     position: absolute;
@@ -761,14 +762,14 @@ Margin top
     padding-left: 0;
 }
 .main-menu nav ul li a::before {
-    background: #ffffff none repeat scroll 0 0;
+    background: #0375af none repeat scroll 0 0;
     bottom: -5px;
     content: "";
     height: 1px;
     left: 0;
     position: absolute;
     transform: scale(0);
-    width: 15px;
+    width: 20px;
     transition: all 0.3s ease 0s;
 }
 .main-menu nav ul li.active a::before,
@@ -924,7 +925,7 @@ a.button.active:hover {
 }
 
 /*----------------------
-	3. Service area
+    3. Service area
 ------------------------*/
 
 
@@ -951,7 +952,7 @@ a.button.active:hover {
     text-transform: uppercase;
 }
 /*----------------------
-	4. About area
+    4. About area
 ------------------------*/
 
 .about-bottom-left > h2 {
@@ -1016,7 +1017,7 @@ p.about-pb {
     transition: all 0.3s ease 0s;
 }
 /*----------------------
-	5. Feature area
+    5. Feature area
 ------------------------*/
 
 .title-style > h1 {
@@ -1099,7 +1100,7 @@ p.about-pb {
     padding-right: 100px;
 }
 /*----------------------
-	Choose area
+    Choose area
 ------------------------*/
 
 .choose-img > img {} .choose-area .feature-list-text2 {
@@ -1111,7 +1112,7 @@ p.about-pb {
     margin-left: -30px;
 }
 /*----------------------
-	6. Video area 
+    6. Video area 
 ------------------------*/
 .about-bottom-img > img {
   width: 100%;
@@ -1186,7 +1187,7 @@ p.about-pb {
     color: #fff;
 }
 /*----------------------
-	7. Download area
+    7. Download area
 ------------------------*/
 
 .bg-2 {
@@ -1332,7 +1333,7 @@ a.download.active {
     content: "\f273";
 }
 /*----------------------
-	8. Screenshot area
+    8. Screenshot area
 ------------------------*/
 .awesome-desc {
   position: absolute;
@@ -1392,7 +1393,7 @@ a.download.active {
   padding-left: 0px;
 }
 /*----------------------
-	9. Review area
+    9. Review area
 ------------------------*/
 
 .team-image > img {
@@ -1425,7 +1426,7 @@ a.download.active {
     font-size: 60px;
 }
 /*----------------------
-	12. blog area
+    12. blog area
 ------------------------*/
 
 .blog-img {
@@ -1482,7 +1483,7 @@ a.download.active {
     padding-right: 0;
 }
 /*----------------------
-	10. Pricing area
+    10. Pricing area
 ------------------------*/
 
 .about-bottom-left.pricing-mrg {
@@ -1572,7 +1573,7 @@ a.download.active {
     color: #616161;
 }
 /*----------------------
-	11. Counter area
+    11. Counter area
 ------------------------*/
 
 .funfact-count h3 {
@@ -1594,7 +1595,7 @@ a.download.active {
     color: #4a90e2;
 }
 /*----------------------
-	12. Newsletter area
+    12. Newsletter area
 ------------------------*/
 
 .newsletter-area.bg-oapcity-40::before {
@@ -1656,7 +1657,7 @@ a.download.active {
     color: #ffffff;
 }
 /*----------------------
-	13. Slider logo
+    13. Slider logo
 ------------------------*/
 
 .single-item2 > a img {
@@ -1671,7 +1672,7 @@ a.download.active {
     border: 1px solid #4a90e2;
 }
 /*----------------------
-	14. Contact area
+    14. Contact area
 ------------------------*/
 
 #hastech {
@@ -1803,7 +1804,7 @@ button.submit:hover {
     color: #fff;
 }
 /*----------------------
-	15. Footer area
+    15. Footer area
 ------------------------*/
 
 .footer-icon li {
