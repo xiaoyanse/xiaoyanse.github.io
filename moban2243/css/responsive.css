@@ -786,7 +786,7 @@
         padding-bottom: 50px;
     }
     .pt-100 {
-        padding-top: 50px;
+        padding-top: 0px;
     }
     .pt-120 {
         padding-top: 15px;
@@ -1118,7 +1118,7 @@
         margin-bottom: 50px;
     }
     .download-mrg {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         z-index: 99;
     }
     .about-bottom-left.pricing-mrg {

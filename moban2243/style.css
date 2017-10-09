@@ -77,7 +77,7 @@ img {
     overflow: hidden
 }
 p {
-    color: #777;
+    color: #fff;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -720,7 +720,7 @@ Margin top
 }
 #main-menu.stick {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(0, 120, 180);
+    border-bottom: 1px solid rgb(251, 251, 251);
     padding: 20px 0;
     position: fixed;
     top: 0;
@@ -936,6 +936,8 @@ a.button.active:hover {
 
 
 .single-item {
+    color: #ffffff;
+    background-color: #1684ba;
     border: 1px solid #b7babd;
     border-radius: 10px;
     padding: 60px 20px 53px;
@@ -943,17 +945,18 @@ a.button.active:hover {
     height: 450px;
 }
 .single-item:hover{
-    border: 1px solid #4a90e2;
-  
-  background-color: rgba(105, 133, 210, 0.24);
+    border: 5px solid #4a90e2;
+/*  height:500px;
+  width:800px;
+  background-color: rgba(105, 133, 210, 0.24);*/
 }
 .single-item-icon i {
-    color: #686868;
+    color: #ffffff;
     font-size: 36px;
     transition: all 0.3s ease 0s;
 }
 .single-item h3 {
-    color: #686868;
+    color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     margin: 9px 0 -1px;
@@ -964,7 +967,7 @@ a.button.active:hover {
 ------------------------*/
 
 .about-bottom-left > h2 {
-  color: #5f5f5f;
+  color: #ffffff;
   font-size: 36px;
   font-weight: normal;
   line-height: 50px;
@@ -979,7 +982,7 @@ a.button.active:hover {
     font-weight: bold;
 }
 .about-bottom-left > h3 {
-    color: #666666;
+    color: #fdfdfd;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 24px;
@@ -990,7 +993,7 @@ a.button.active:hover {
     padding-right: 30px;
 }
 .about-icon li a {
-    color: #666666;
+    color: #bda6a6;
     font-size: 22px;
     line-height: 0;
 }
@@ -1001,7 +1004,7 @@ p.about-pb {
     padding-bottom: 17px;
 }
 .about-bottom-left > p {
-    color: #777;
+    color: #fff;
     font-size: 16px;
     padding-right: 47px;
 }
@@ -1207,7 +1210,7 @@ p.about-pb {
 .download-mrg {
     position: relative;
     z-index: 999;
-    margin-bottom: 70px;
+    margin-bottom: 0px;
 }
 .about-bottom-left.download-mrg > h2 {
     color: #fff;
@@ -1321,7 +1324,7 @@ a.download.active {
     background-color: #fff;
     border-radius: 100%;
     color: #808080;
-    content: "ï‰¸";
+    content: "ÃƒÂ¯Ã¢â‚¬Â°Ã‚Â¸";
     font-family: Material-Design-Iconic-Font;
     font-size: 16px;
     height: 27px;
@@ -1522,7 +1525,7 @@ a.download.active {
 }
 .price h4 span.text-large {
     color: #4e4e4e;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: normal;
     transition: all 0.3s ease 0s;
 }
@@ -1571,9 +1574,9 @@ a.download.active {
 }
 .price-btn .button:hover,
 .price-btn .button.active {
-    background-color: #4a90e2;
-    border: 1px solid #4a90e2;
-    color: #fff;
+    background-color: #ffffff;
+    border: 1px solid #d4cfcf;
+    color: #4e4e4e;
 }
 .price-btn .button.active:hover {
     background-color: transparent;
@@ -1751,7 +1754,7 @@ button.submit:hover {
     border: 1px solid #f3f3f3;
 }
 .contact-icon i {
-    color: #666666;
+    color: #ffffff;
     display: table-cell;
     font-size: 18px;
     vertical-align: middle;
@@ -1760,13 +1763,13 @@ button.submit:hover {
     display: inline-block;
 }
 .contact-text > span {
-    color: #7a7a7a;
+    color: #ffffff;
     font-size: 18px;
     font-weight: normal;
     line-height: 22px;
 }
 .contact-text > span a {
-    color: #7a7a7a;
+    color: #ffffff;
     font-size: 18px;
     font-weight: normal;
     line-height: 22px;
@@ -1837,13 +1840,13 @@ button.submit:hover {
     padding: 25px 0 56px;
 }
 .footer-text span {
-    color: #777;
+    color: #fff;
     font-size: 14px;
     font-weight: normal;
     text-transform: capitalize;
 }
 .footer-text span a {
-    color: #777;
+    color: #fff;
     transition: all 0.3s ease 0s;
     font-weight: 600;
 }
@@ -1891,4 +1894,39 @@ button.submit:hover {
 }
 .mfp-wrap {
   z-index: 999999;
+}
+
+#pricing-area{
+    background-color:#1684ba;
+}
+.about-bottom-left{
+    color:white;
+}
+
+.yewu_sanda{
+    color:red;
+}
+
+.hexin_jishu{
+    color: #1684ba;
+}
+
+#home-area{
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
+
+.price-btn .button:hover{
+    background-color: #1684ba;
+    color: #fff;
+}
+
+#about_us{
+    padding-bottom: 0px;
+}
+.biaoti_fu{
+    color: #000000;
+       padding-top:50px;
 }
