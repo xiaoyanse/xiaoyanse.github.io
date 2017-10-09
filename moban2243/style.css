@@ -929,15 +929,23 @@ a.button.active:hover {
 ------------------------*/
 
 
-
+.single-price-package{
+    background-color: red;
+}
 
 
 
 .single-item {
-    border: 1px solid #d9d9d9;
+    border: 1px solid #b7babd;
     border-radius: 10px;
     padding: 60px 20px 53px;
     transition: all 0.3s ease 0s;
+    height: 450px;
+}
+.single-item:hover{
+    border: 1px solid #4a90e2;
+  
+  background-color: rgba(105, 133, 210, 0.24);
 }
 .single-item-icon i {
     color: #686868;
@@ -1313,7 +1321,7 @@ a.download.active {
     background-color: #fff;
     border-radius: 100%;
     color: #808080;
-    content: "";
+    content: "ï‰¸";
     font-family: Material-Design-Iconic-Font;
     font-size: 16px;
     height: 27px;
@@ -1735,17 +1743,17 @@ button.submit:hover {
 .contact-icon {
     border-radius: 5px;
     display: inline-table;
-    height: 54px;
+    height: 30px;
     margin-right: 18px;
     text-align: center;
     transition: all 0.3s ease 0s;
-    width: 54px;
+    width: 30px;
     border: 1px solid #f3f3f3;
 }
 .contact-icon i {
     color: #666666;
     display: table-cell;
-    font-size: 30px;
+    font-size: 18px;
     vertical-align: middle;
 }
 .contact-text {
@@ -1753,13 +1761,13 @@ button.submit:hover {
 }
 .contact-text > span {
     color: #7a7a7a;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 22px;
 }
 .contact-text > span a {
     color: #7a7a7a;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 22px;
 }
