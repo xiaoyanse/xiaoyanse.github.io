@@ -1324,7 +1324,7 @@ a.download.active {
     background-color: #fff;
     border-radius: 100%;
     color: #808080;
-    content: "ÃƒÂ¯Ã¢â‚¬Â°Ã‚Â¸";
+    content: "ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°Ãƒâ€šÃ‚Â¸";
     font-family: Material-Design-Iconic-Font;
     font-size: 16px;
     height: 27px;
@@ -1446,6 +1446,7 @@ a.download.active {
 }
 .about-bottom-left.blog-mrg {
     margin-bottom: 80px;
+    margin-top:80px;
 }
 .blog-text > span {
     color: #606060;
