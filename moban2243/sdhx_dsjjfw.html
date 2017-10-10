@@ -1,0 +1,217 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Home</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS
+	============================================ -->		
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- font-awesome CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- et-line-fonts CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/et-line-fonts.css">
+<!-- ionicons CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/ionicons.min.css">
+<!-- magnific-popup CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+<!-- animate-headline css
+	============================================ -->
+	<link rel="stylesheet" href="css/animate-headline.css">
+<!-- venobox CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/venobox.css">
+<!-- slick CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/slick.css">
+<!-- owl.carousel CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.transitions.css">
+<!-- animate CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/animate.css">
+<!-- normalize CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/normalize.css">
+<!-- main CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/main.css">
+<!-- style CSS
+	============================================ -->
+	<link rel="stylesheet" href="style.css">
+<!-- responsive CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/responsive.css">
+
+<!-- modernizr JS
+	============================================ -->		
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div class="wrapper">
+	<header class="header-area">
+		<div id="main-menu" class="sticker">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<div class="logo float-left navbar-header">
+							<a class="navbar-brand" href="index.html"><img width="100"  height="50" src="img/logo/logo.png" alt=""></a>
+							<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-2">
+								<i class="fa fa-bars menu-open"></i>
+								<i class="fa fa-times menu-close"></i>
+							</button>
+						</div>
+						<div class="main-menu float-right collapse navbar-collapse" id="main-menu-2">
+							<nav>
+								<ul class="menu one-page">
+									<li class="active"><a href="index.html">主页</a></li>
+									<li><a href="#about_us">关于我们</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+
+<div class="blog-area gray-bg pt-100 pb-120">
+		<div class="container">
+			<div class="about-bottom-left blog-mrg clearfix text-center ">
+			<div class="biaoti_fu">
+				<h2>数据可视化</h2>
+				<h4>大数据客户所需要的并不仅仅只是一个存储他们大数据的‘硬盘’，就目前这个阶段而言，供应商需要提供到位的数据迁移和存储服务，但更重要的是，他们应能够在此基础之上提供咨询服务，因为大部分的企业用户并不具备使用大数据管理软件的经验。</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-14 col-sm-0">
+					<div class="blog-img-text res">
+						<div class="blog-text">
+							<span>李姑曼</span>
+							<h4><a href="http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=1&sn=59a763021cb69c9b294b851705160012&chksm=727b0d29450c843fcccb284e26dc477838b4e9314c16139bc0abbbdd63c46551ea0f85ace236#rd">如何对Hadoop平台上的数据进行可视化分析(一)</a></h4>
+							<p>Oracle Data Visualization Desktop可以连接到很多数据源上，现在我们来介绍一下如何通过JDBC将ODVD连接到Hadoop集群上。</p>
+							<a href="http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=1&sn=59a763021cb69c9b294b851705160012&chksm=727b0d29450c843fcccb284e26dc477838b4e9314c16139bc0abbbdd63c46551ea0f85ace236#rd">Read More <i class="ion-arrow-right-c"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-14 col-sm-0">
+					<div class="blog-img-text">
+						<div class="blog-text">
+
+							<span id="app">{{ itemList }}李姑曼
+
+									<ul>
+									<li v-for="item in itemList" :id="item.id" style="list-style-type: none;">
+
+									编号：{{item.id}}</br>
+									作者：{{item.author}}</br>
+									书名{{item.name}}</br>
+									价格：{{item.price}}</br>
+									出版时间{{item.time}}</br>
+
+									</li>
+									</ul>
+							</span>
+
+							<h4><a href="http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=2&sn=640191fceed4c62e375c048cffbe4ce9&chksm=727b0d29450c843fb845598e8dac4b8ab422391c56c092d9dfaa458f783fc1f3f3ad8d4650ad#rd">基于云端的数据基础服务</a></h4>
+							<p>ODI云服务提供了后进先出式的数据处理，同时也提供了数据移动较少的高性能的ETL，这些都很适合在云端执行。ODI云服务不需要将数据复制到远程位置就可以进行数据转换。</p>
+							<a href="http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=2&sn=640191fceed4c62e375c048cffbe4ce9&chksm=727b0d29450c843fb845598e8dac4b8ab422391c56c092d9dfaa458f783fc1f3f3ad8d4650ad#rd">Read More <i class="ion-arrow-right-c"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="about_us" class="newsletter-area bg-oapcity-40 ptb-120 bg-img-4">
+		<div class="container">
+			<div class="about-bottom-left download-mrg clearfix text-center">
+				<h2> 关于我们</h2>
+				<p>合肥众说分云数据科技有限公司是一家大数据方案提供商，<br>致力加速大数据应用落地，帮助企业把握数据时代的节拍，提升客户体验。团队核心成员来自Oracle、IBM和微软等跨国企业，技术方向聚焦数据整合、数据协同和数据分析。技术团队专注于数据处理，对于数据的收集、分发、对接、挖掘有着独特的理解和思考，拥有强大的实施能力和丰富的行业经验。</p>
+
+				<h1>.....</h1>
+				<a href="#"><img src="img/blog/qrcode_for_gh_1cda36d8f880_430.jpg" width="200" alt=""></a>
+				
+				<p>
+					微信公众号
+					<br>
+					cloudvoice
+				</p>
+
+
+				
+				<div class="col-md-6 col-sm-6 text-center">
+					<div class="single-contact-info">
+						<div class="contact-icon">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</div>
+						<div class="contact-text">
+							<span>
+								0551-64931508 转 408
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="single-contact-info res-xs2">
+					<div class="contact-icon">
+						<i class="fa fa-globe" aria-hidden="true"></i>
+					</div>
+					<div class="contact-text">
+						<span>
+							<a href="#">sales@yuntalk.cn</a>
+
+						</span>
+					</div>
+				</div>
+
+				<footer class="footer-area pt-20 pb-20">
+					<div class="container">
+						<div class="col-md-12 text-center">
+							<div class="footer-text">
+								<span>Copyright &copy; © 2015-2017<a target="_blank" href="http://http://yuntalk.cn">合肥众说分云数据科技有限公司</a> All rights reserved.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</div>
+<div id="toTop">
+	<i class="fa fa-chevron-up"></i>
+</div>
+
+
+<!-- jquery
+	============================================ -->		
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<!-- bootstrap JS
+	============================================ -->		
+	<script src="js/bootstrap.min.js"></script>
+<!-- ajax mails JS
+	============================================ -->
+	<script src="js/ajax-mail.js"></script>
+<!-- plugins JS
+	============================================ -->		
+	<script src="js/plugins.js"></script>
+	<script src="js/vue.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/hahaha.js"></script>
+</body>
+</html>
