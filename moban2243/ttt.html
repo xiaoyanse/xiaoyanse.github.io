@@ -1,66 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+<script src="/jquery/jquery-1.11.1.min.js"></script>
+<script>
 
-  <head>
-    <meta charset="UTF-8">
-    <title>vue js</title>
-    <style>
-      .completed {
-        text-decoration: line-through;
-      }
-      
-      .something {
-        color: red;
-      }
-    </style>
-  </head>
 
-  <body>
+var json = [
+                                    {
+                                        "title":"如何对Hadoop平台上的数据进行可视化分析(一)",
+                                        "author":"李姑曼",
+                                        "digest":"Oracle Data Visualization Desktop可以连接到很多数据源上，现在我们来介绍一下如何通过JDBC将ODVD连接到Hadoop集群上。",
+                                        "show_cover":0,
+                                        "cover_url":"http://mmbiz.qpic.cn/mmbiz_jpg/aQD692p8ANkUwkjla195KhPmO8neYe4pmMUrIDdcjDXwiaLrhHEMEJXG7icDz8eKaNnUU7ticSH7vviap1a21GD0ibA/0?wx_fmt=jpeg",
+                                        "content_url":"http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=1&sn=59a763021cb69c9b294b851705160012&chksm=727b0d29450c843fcccb284e26dc477838b4e9314c16139bc0abbbdd63c46551ea0f85ace236#rd",
+                                        "source_url":""
+                                    },
+                                    {
+                                        "title":"基于云端的数据基础服务",
+                                        "author":"李姑曼",
+                                        "digest":"ODI云服务提供了后进先出式的数据处理，同时也提供了数据移动较少的高性能的ETL，这些都很适合在云端执行。ODI云服务不需要将数据复制到远程位置就可以进行数据转换。",
+                                        "show_cover":0,
+                                        "cover_url":"http://mmbiz.qpic.cn/mmbiz_jpg/aQD692p8ANkvUvMqOibIJVdBibb3UqCwDDW7R9JmibLs9opsyr2j6v2uQLGficVnfJl7CQkqzgAtbBHc1Mib4NGbZXw/0?wx_fmt=jpeg",
+                                        "content_url":"http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=2&sn=640191fceed4c62e375c048cffbe4ce9&chksm=727b0d29450c843fb845598e8dac4b8ab422391c56c092d9dfaa458f783fc1f3f3ad8d4650ad#rd",
+                                        "source_url":""
+                                    },
+                                    {
+                                        "title":"Oracle商务智能产品快速入门指南（一）",
+                                        "author":"金芹梅",
+                                        "digest":"当Oracle BI 安装成功后，我们首先需要找到登录界面，通过用户名/密码进行登录，登录后，使用BI的功能创建分析报告和其他一些交互式报告。",
+                                        "show_cover":0,
+                                        "cover_url":"http://mmbiz.qpic.cn/mmbiz_jpg/aQD692p8ANkUwkjla195KhPmO8neYe4pb7xDTOGGjnaKuexqYGYbg1HfgicPRYibDVOjb46u6Ak9oia2CO3e8XCcg/0?wx_fmt=jpeg",
+                                        "content_url":"http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=3&sn=3fd02efa812a50ba2089545383b6c3cb&chksm=727b0d29450c843ffd0372c2623e40fde41b2708a9702fe6d508325e7f79cf3ebf95978de90a#rd",
+                                        "source_url":""
+                                    },
+                                    {
+                                        "title":"通过云端应用制作企业报表",
+                                        "author":"金芹梅",
+                                        "digest":"使用内部部署许可证将BIPublisher作为独立的Java云服务托管，用基于云的应用程序制作像素完美的企业报告。",
+                                        "show_cover":0,
+                                        "cover_url":"http://mmbiz.qpic.cn/mmbiz_jpg/aQD692p8ANkUwkjla195KhPmO8neYe4p2via654tqQ4Y7jjKaJXUjlaByfsSruY4kFuSBnMFMZ8vaT7X9kRm2lg/0?wx_fmt=jpeg",
+                                        "content_url":"http://mp.weixin.qq.com/s?__biz=MzI1OTE4NjMzOA==&mid=502490852&idx=4&sn=99a0b376fc196efe9af197de01e53fdf&chksm=727b0d29450c843f3496e12cc1301ccc7c7f218f06239ba1fb831ab97ba6865c9f121ef0c1dc#rd",
+                                        "source_url":""
+                                    }
+                                ];
+for(var i=0,l=json.length;i<l;i++){
+for(var key in json[i]){
+alert(key+':'+json[i][key]);
 
-    <div class="container">
-      <div id="app">
-        <task-app :list="tasks">
 
-        </task-app>
-      </div>
-      <template id="task-template">
-        <ul>
-          <li v-for="task in list">
-            {{ task.id }} | {{ task.author }} | {{ task.name }} | {{ task.price }}
-          </li>
-        </ul>
-      </template>
-      <script src="vue.js"></script>
-      <script src="vue-resource.js"></script>
+}
+}
 
-      <script>
-        Vue.component('task-app', {//要应用的标签
-          template: '#task-template',//模板id
-          props: ['list']//请求的json
-        })
-      </script>
-      <script>
-        var demo = new Vue({
-          el: '#app',
-          data: {
-            tasks: '' //为空，可以是null
-          },
-          ready: function() {
-            this.getCustomers()
-          },
-          methods: {
-            getCustomers: function() {
-              this.$http.get('resourse.json')
-                .then(function(response) { //response传参，可以是任何值
-                  this.$set('tasks', response.data)
-                })
-                .catch(function(response) {
-                  console.log(response)
-                })
-            }
-          }
-        })
-      </script>
-  </body>
+</script>
+</head>
+<body>
 
+<p>This is a paragraph.</p>
+<button onclick="appendText()">追加文本</button>
+
+</body>
 </html>
