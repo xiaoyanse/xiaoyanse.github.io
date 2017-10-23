@@ -1567,7 +1567,7 @@ p.about-pb {
     }
     .price h4 span.text-large {
         color: #4e4e4e;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: normal;
         transition: all 0.3s ease 0s;
     }
@@ -1986,5 +1986,4 @@ p.about-pb {
 
 li.active a{
     color: #f09600;
-    font-size:20px;
 }
